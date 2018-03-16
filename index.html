@@ -9,13 +9,39 @@
 
 
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
+    <!--    imported styles-->
+
+
+
+
+
+    <style>
+        /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
+
+        p {
+            text-align: left;
+        }
+
+    </style>
+
+
+
+    <!--imported styles-->
+
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="stylesheet" type="text/css" href="css/default.css" />
     <link rel="stylesheet" type="text/css" href="css/component.css" />
     <link rel="stylesheet" type="text/css" href="css/aos.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
 
 
 </head>
@@ -56,7 +82,7 @@
     </div>
 
 
-    <section class="about-me" id="about" data-aos="fade-in" data-aos-duraction="1500">
+    <section class="about-me" id="about" data-aos="fade-left" data-aos-duraction="1500">
 
         <div class="about-me-left">
             <span class="Louis" style="color: #0d3d51; font-weight: bold"><h1>Louis Cosyn</h1></span>
@@ -65,324 +91,413 @@
             <img src="images/louis-bw.png" class='louis-img'>
         </div>
 
-        <div class="social">
-            <ul class="social">
-                <li>LinkedIn</li>
-                <li>Instagram</li>
 
 
-            </ul>
+
+        <div class="about-me-right" data-aos="slide-left" data-duration="2000">
+
+            <p class="bio">
+                <h1 style="border-left: solid 10px #0d3d51; padding-left: 3%;">About Me</h1>
+                <p>For the past 5 years I have made it my mission to utilise my creativity, work ethic and drive to develop a solid repertoire in the marketing space. I love data and engaging content. I believe that when the two are matched properly they result in the strongest ROI's.
+
+                    <br><br>Whilst studying my bachelor I worked as a marketing intern and then coordinator. Since graduating I've used what I've learned to create campaigns that produce results. I'm genuinely excited by the future in the marketing space and strongly believe that I have the ability, ambition and potential to leverage them to maximum success.
+                </p>
+
+
 
 
         </div>
-
-
-        <div class="about-me-right" data-aos="slide-up" data-duration="2000">
-
-            <p class="bio">
-                <h1>About Me</h1> Hi I'm Louis and I like cheese and stuff!Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</P>
-
-
-
-            <div class="buttons" data-aos="" data-aos-duraction="1200">
-
-                <a data-toggle="modal" data-target="#aboutModal">
-<button class="button button1">More Info</button>
-</a>
-
-                <!-- <button class="button button2" href="#wrapper">Experience</button>
-</a>
-                <a href="#skills">
-<button class="button button3 ">Skills</button>
-</a>
-                <a href="#testemonials">
-<button class="button button4">Testemonials</button>
-</a> -->
-
-
-
-            </div>
 
     </section>
     <br>
 
+    <div class="wrapper-collapse" style="background-image: url(images/background-1.png)">
+        <h1 style="text-align: center; font-weight: 300">A bit of my history</h1>
 
-    <div class="wrapper-1">
-        <div class="experience">
-            <div class="experience-text" data-aos="fade-in" data-aos-duration="1200">
-                <h1> Work Timeline</h1>
 
-                <ul class="jobs">
-                    <li data-aos="slide-up"> 2017 - 18 | Lorem - Lorem Lorem</li>
+        <section style="width: 90px; border-bottom: solid 3px #0d3d51; margin: 0 auto; margin-bottom: 5%;"></section>
+
+
+
+        <div class="item">
+            <input id="one" type="checkbox" />
+            <label for="one">Education ↕</label>
+
+            <div class="description">
+                <div class="experience row">
+                    <div class="col-md-4">
+                        <h4>International College of Management, Sydney</h4>
+                    </div>
+
+                    <div class="col-md-8">
+
+                        <strong>Bachelor of Business, major marketing and new media</strong>
+                        <br>
+                        <p class="e-text" style="width: 75%;"> During this bachelor I studied in areas including marketing, accounting and finance, human resources, communication and negotiation, logistics, legal issues and leadership. These core subjects were supplemented with electives in marketing, new media, brand management and more. There was strong emphasis on prefessionalism and real work experience.
+                        </p>
+                        <span class="experience-details">
+					<span class="location">
+						<span class="glyphicon glyphicon-map-marker"></span> Sydney </span>
+                        </span>
+                    </div>
+                </div>
+
+
+                <div class="experience row">
+                    <div class="col-md-4">
+                        <h4>The Kings School</h4>
+                    </div>
+
+                    <div class="col-md-8">
+
+                        <strong>Higher School Certificate.</strong>
+                        <br>
+                        <p style="width: 75%;" class="e-text"> I graduated boarding school, where I enjoyed business studies, modern history and art. During these years I played rugby, basketball, cricket and loved being part of a team. My time at TKS helped me develope a love of community and continued strive for excelellnce.
+                        </p>
+                        <span class="location">
+						<span class="glyphicon glyphicon-map-marker"></span> Eindhoven </span>
+
+
+                        <span class="seperator">|</span>
+                        <span class="link">
+						<span class="glyphicon glyphicon-link"></span>
+                        <a href="http://startselect.com" target="_blank"></a>
+                        </span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="item">
+            <input id="two" type="checkbox" />
+            <label for="two">Experience ↕</label>
+            <div class="description">
+                <div class="experience row">
+                    <div class="col-md-4" style="border-left: solid 3px ;">
+                        <h4>ICMS</h4>
+                    </div>
+
+                    <div class="col-md-8">
+
+                        <strong>Marketing Executive</strong>
+                        <br>
+                        <p style="width: 75%;" class="e-text"> In this role I wore several hats. I conceptualised and created marketing materials and managed projects. For example I would create a campaign (visual content and copywriting) for Facebook/Google, once created set it up in the platform and create CTA's, landing pages and lead forms then link to Google Analytics and monitor, test and make changes if need be. I would also manage many communications with customers/partners by way of EDM, print mail outs and nurturing programs.
+
+                        </p>
+                        <span class="location">
+						<span class="glyphicon glyphicon-map-marker"></span> Manly </span>
+
+
+                        <span class="seperator">|</span>
+                        <span class="link">
+						<span class="glyphicon glyphicon-link"></span>
+                        <a href="http://startselect.com" target="_blank"></a>
+                        </span>
+
+                    </div>
                     <br>
-                    <li data-aos="slide-up">2016 - 17 | Lorem - Lorem Lorem</li>
-                    <br>
-                    <li data-aos="slide-up">2016 | Lorem Cache Lorem - Digital Marketing</li>
-                    <br>
-                    <li data-aos="slide-up">2015 | Lorem Lorem - Marketing</li>
+                </div>
 
 
-                </ul>
+                <div class="experience row">
+                    <div class="col-md-4" style="border-left: solid 3px ;">
+                        <h4>ICMS</h4>
+                    </div>
+
+                    <div class="col-md-8">
+
+                        <strong>Marketing Intern</strong>
+                        <br>
+                        <p style="width: 75%;" class="e-text"> In this internship I began conrtibuting towards the companies social media presence with visual content and organic campaigns. I began taking upon more responsibilites such as paid advertising and was offered a full time position after 2 months.
+                        </p>
+                        <span class="location">
+						<span class="glyphicon glyphicon-map-marker"></span> Eindhoven </span>
+
+
+                        <span class="seperator">|</span>
+                        <span class="link">
+						<span class="glyphicon glyphicon-link"></span>
+                        <a href="http://startselect.com" target="_blank">http://startselect.com</a>
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="experience row">
+                    <div class="col-md-4" style="border-left: solid 3px ;">
+                        <h4>Freelance</h4>
+                    </div>
+
+                    <div class="col-md-8">
+
+                        <strong>Marketing</strong>
+                        <br>
+                        <p style="width: 75%;" class="e-text"> I have built e-commerce websites, written marketing plans, pitched for captial investment and implemented marketing strategies for several Australian brands. Businesses ranging from baby clothes to smart phone applications. Much of this work was done whilst still studying full time.
+                        </p>
+                        <span class="location">
+						<span class="glyphicon glyphicon-map-marker"></span> Eindhoven </span>
+
+
+                        <span class="seperator">|</span>
+                        <span class="link">
+						<span class="glyphicon glyphicon-link"></span>
+                        <a href="http://startselect.com" target="_blank">http://startselect.com</a>
+                        </span>
+
+                    </div>
+
+                </div>
+
+
 
             </div>
+
         </div>
 
 
-        <div class="education">
-            <div class="education-text" data-aos="fade-in" data-aos-duration="1200">
-                <h1> <span class="ed-1">Education</span></h1>
 
-                <ul class="jobs">
-                    <li data-aos="">Bachelor of business management, major in marketing and new media </li>
-                    <br>
-                    <li data-aos="">Social media marketing certificate</li>
-                    <br>
-                    <li data-aos="">Front end web development</li>
-                    <br>
+        <div class="item">
+            <input id="three" type="checkbox" />
+            <label for="three">Certificates ↕</label>
+            <div class="description">
+                <div class="experience row">
+                    <div class="col-md-4" style="border-left: solid 3px ;">
+
+                    </div>
+
+                    <div class="experience row">
+                        <div class="col-md-4">
+                            <h4>General Assembly</h4>
+                        </div>
+
+                        <div class="col-md-8">
+
+                            <strong>Front End Web Development</strong>
+                            <br>
+                            <p style="width: 75%;" class="e-text"> In this course I learned to leverage HTML, CSS, and JavaScript through hands-on projects and real-world scenarios. I learned to developed interactive, responsive websites, emails and digital advertisments.
+                            </p>
+                            <span class="location">
+						<span class="glyphicon glyphicon-map-marker"></span> Sydney </span>
 
 
 
 
-                </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="experience row">
+                        <div class="col-md-4">
+                            <h4>Google</h4>
+                        </div>
+
+                        <div class="col-md-8">
+
+                            <strong>Google Analytics</strong>
+                            <br>
+                            <p style="width: 75%;" class="e-text"> The Google Analytics Qualification (IQ) is a demonstration of proficiency in Google Analytics
+                            </p>
+                            <span class="location">
+						<span class="glyphicon glyphicon-map-marker"></span> Online </span>
+
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="experience row">
+                        <div class="col-md-4">
+                            <h4>Sydney Univeristy</h4>
+                        </div>
+
+                        <div class="col-md-8">
+
+                            <strong>Social Media Marketing Course</strong>
+                            <br>
+                            <p style="width: 75%;" class="e-text">
+                                In this course I boosted skills in lead generation, Facebook pixel, remarketing, lookalike audiences, data analytics, copy writing and optimisation of ad campaigns for further improvement. There was also focus on organic social media content.
+
+                            </p>
+                            <span class="location">
+						<span class="glyphicon glyphicon-map-marker"></span> Sydney </span>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
 
             </div>
+
         </div>
-                <div class="skills" id="skills">
 
-            <h1 class="">Work Skills</h1>
+    </div>
 
 
-            <div class="skillbar clearfix " data-percent="65%">
-                <div class="skillbar-title" style="background: #0d3d51;" data-aos="fade-left" data-aos-duration="5000"><span>Lorem</span></div>
-                <div class="skillbar-bar" style="background: #80acba;" data-aos="fade-right" data-aos-duration="5000"></div>
-                <div class="skill-bar-percent"></div>
+    <div class="skills">
+
+
+        <h1 class="skills-h" style="text-align: center; font-weight: 300;">Work related skills</h1>
+
+        <section style="width: 90px; border-bottom: solid 3px #0d3d51; margin: 0 auto; margin-bottom: 3%"></section>
+
+
+        <div class=" row" style="margin: 0 auto">
+
+
+
+
+
+
+            <img src="images/skills-1.png" class="col-sm-4, col-md-4">
+
+
+
+            <img src="images/skills-3.png" class="col-sm-4 col-md-4">
+
+
+
+            <img src="images/skills-2.png" class="col-sm-4 col-md-4">
+
+
+        </div>
+
+    </div>
+
+    <div class="portfolio">
+
+        <div class="my-work" style="text-align: center">
+            <h1>A few Projects</h1>
+
+
+            <section style="width: 90px; border-bottom: solid 3px #f2f2f2; margin: 0 auto"></section>
+
+
+
+        </div>
+
+
+        <div class="wrapper cs-style-1" data-aos="fade-left" data-aos-duration="1200">
+
+
+            <div class="box box1 button" id="one">
+                <a href="#ads" data-toggle="modal" data-target="#ads">
+                    <div class="overlay">
+                        <h4>Online Ads</h4>
+                        <p> More Info </p>
+                    </div>
+                    <img class="g-d" src="images/oa.png" alt="">
+
+                </a>
             </div>
-            <!-- End Skill Bar -->
 
-            <div class="skillbar clearfix " data-percent="60%">
-                <div class="skillbar-title" style="background: #0d3d51;" data-aos="fade-left" data-aos-duration="5000"><span>Lorem</span></div>
-                <div class="skillbar-bar" style="background: #80acba;" data-aos="fade-right" data-aos-duration="5000"></div>
-                <div class="skill-bar-percent"></div>
+
+
+            <div class="box box2">
+                <a href="#graphicDeignModal" data-toggle="modal" data-target="#graphicDesignModa">
+
+                    <div class="overlay">
+                        <h4>Instagram</h4>
+                        <p> More Info </p>
+                    </div>
+                    <img class="g-d" src="images/st.png" alt="">
+
+                </a>
             </div>
-            <!-- End Skill Bar -->
 
-            <div class="skillbar clearfix " data-percent="50%">
-                <div class="skillbar-title" style="background: #0d3d51;" data-aos="fade-left" data-aos-duration="5000"><span>Lorem</span></div>
-                <div class="skillbar-bar" style="background: #80acba;" data-aos="fade-right" data-aos-duration="5000"></div>
-                <div class="skill-bar-percent"></div>
+
+            <div class="box box3">
+                <a href="#graphicDesignModal" data-toggle="modal" data-target="#graphicDesignModal">
+                    <div class="overlay">
+                        <h4>Email Marketing</h4>
+                        <p> More Info </p>
+                    </div>
+                    <img class="g-d" src="images/edm-2.png" alt="">
+
+                </a>
+
             </div>
-            <!-- End Skill Bar -->
 
-            <div class="skillbar clearfix " data-percent="40%">
-                <div class="skillbar-title" style="background: #0d3d51;" data-aos="fade-left" data-aos-duration="5000"><span>Lorem</span></div>
-                <div class="skillbar-bar" style="background: #80acba;" data-aos="fade-right" data-aos-duration="5000"></div>
-                <div class="skill-bar-percent"></div>
+
+
+
+
+            <div class="box box4">
+                <a href="#cinemagraphs" data-toggle="modal" data-target="#cinemagraphs">
+                    <div class="overlay">
+                        <h4>Animations</h4>
+                        <p> More Info </p>
+                    </div>
+                    <img class="g-d" src="images/ve2.png" alt="">
+                </a>
             </div>
-            <!-- End Skill Bar -->
 
-            <div class="skillbar clearfix " data-percent="50%">
-                <div class="skillbar-title" style="background: #0d3d51;" data-aos="fade-left" data-aos-duration="5000"><span>Lorem</span></div>
-                <div class="skillbar-bar" style="background: #80acba;" data-aos="fade-right" data-aos-duration="5000"></div>
-                <div class="skill-bar-percent"></div>
+            <div class="box box5">
+                <a href="#lead-gen" data-toggle="modal" data-target="#lead-gen">
+                    <div class="overlay">
+                        <h4>Lead Generation Ads
+                        </h4>
+                        <p> More Info </p>
+                    </div>
+                    <img class="g-d" src="images/leads3.png" alt="">
+                </a>
             </div>
-            <!-- End Skill Bar -->
+            <div class="box box6">
 
-            <div class="skillbar clearfix " data-percent="35%">
-                <div class="skillbar-title" style="background: #0d3d51;" data-aos="fade-left" data-aos-duration="5000"><span>Lorem</span></div>
-                <div class="skillbar-bar" style="background: #80acba;" data-aos="fade-right" data-aos-duration="5000"></div>
-                <div class="skill-bar-percent"></div>
+                <a href="#campaigns" data-toggle="modal" data-target="#campaigns">
+
+                    <div class="overlay">
+                        <h4>CTA</h4>
+                        <p> More Info </p>
+                    </div>
+                    <img class="g-d" src="images/campaigns2.png">
+                </a>
             </div>
-            <!-- End Skill Bar -->
-
-            <div class="skillbar clearfix " data-percent="40%">
-                <div class="skillbar-title" style="background: #0d3d51;" data-aos="fade-left" data-aos-duration="5000"><span>Lorem</span></div>
-                <div class="skillbar-bar" style="background: #80acba;" data-aos="fade-right" data-aos-duration="5000"></div>
-                <div class="skill-bar-percent"></div>
+            <div class="box box7">
+                <a href="#instagram" data-toggle="modal" data-target="#instagram">
+                    <div class="overlay">
+                        <h4>Instgram Prpjects</h4>
+                        <p> More Info </p>
+                    </div>
+                    <img class="g-d" src="images/ig.png" alt="">
+                </a>
             </div>
-            <!-- End Skill Bar -->
+
+            <div class="box box8">
+                <a href="#graphicDesignModal" data-toggle="modal" data-target="#graphicDesignModal">
+                    <div class="overlay">
+                        <h4> Graphic Design</h4>
+                        <p> More Info </p>
+                    </div>
+                    <img class="g-d" src="images/gd-4.png" alt="" style="height: auto">
+                </a>
+            </div>
+
+            <!--
+<div class="box box9">
+    <a href="#graphicDesignModal" data-toggle="modal" data-target="#graphicDesignModal">
+        <div class="overlay">
+            <h4> Graphic Design</h4>
+            <p> More Info </p>
+        </div>
+        <img class="g-d" src="images/aspire.png" alt="">
+    </a>
+</div>
+-->
+
+
+
 
 
 
         </div>
-    </div>        
-
-
-
-
-
-    <div class="wrapper cs-style-1" data-aos="slide-up" data-aos-duration="1200">
-
-        <div class="box box1">
-            <a data-toggle="modal" data-target="#aboutModal">
-                <div class="overlay">
-                    <h4> Graphic Design</h4>
-                    <p> More Info </p>
-                </div>
-                <img class="g-d" src="images/g-d.png" alt="">
-
-            </a>
-        </div>
-
-
-
-        <div class="box box2">
-            <a data-toggle="modal" data-target="#aboutModal">
-                <div class="overlay">
-                    <h4> Graphic Design</h4>
-                    <p> More Info </p>
-                </div>
-                <img class="g-d" src="images/st.png" alt="">
-
-            </a>
-        </div>
-
-
-
-        <div class="box box3">Box
-            <a data-toggle="modal" data-target="#aboutModal">
-                <div class="overlay">
-                    <h4> Graphic Design</h4>
-                    <p> More Info </p>
-                </div>
-                <img class="g-d" src="images/g-.png" alt="">
-
-            </a>
-
-        </div>
-
-
-
-
-        <div class="box box4">
-            <a data-toggle="modal" data-target="#aboutModal">
-                <div class="overlay">
-                    <h4> Graphic Design</h4>
-                    <p> More Info </p>
-                </div>
-                <img class="g-d" src="images/ld.png" alt="">
-            </a>
-        </div>
-        <div class="box box5">
-            <a data-toggle="modal" data-target="#aboutModal">
-                <div class="overlay">
-                    <h4> Graphic Design</h4>
-                    <p> More Info </p>
-                </div>
-                <img class="g-d" src="images/g-.png" alt="">
-            </a>
-        </div>
-        <div class="box box6">
-            <a data-toggle="modal" data-target="#aboutModal">
-                <div class="overlay">
-                    <h4> Graphic Design</h4>
-                    <p> More Info </p>
-                </div>
-                <img class="g-d" src="images/sm.png" alt="My Pic">
-            </a>
-        </div>
-        <div class="box box7">
-            <a data-toggle="modal" data-target="#aboutModal">
-                <div class="overlay">
-                    <h4> Graphic Design</h4>
-                    <p> More Info </p>
-                </div>
-                <img class="g-d" src="images/g-.png" alt="">
-            </a>
-        </div>
-        <div class="box box8">
-            <a data-toggle="modal" data-target="#aboutModal">
-                <div class="overlay">
-                    <h4> Graphic Design</h4>
-                    <p> More Info </p>
-                </div>
-                <img class="g-d" src="images/g-.png" alt="">
-            </a>
-        </div>
-        <div class="box box9">
-            <a data-toggle="modal" data-target="#aboutModal">
-                <div class="overlay">
-                    <h4> Graphic Design</h4>
-                    <p> More Info </p>
-                </div>
-                <img class="g-d" src="images/g-.png" alt="">
-            </a>
-        </div>
-
-
-        <div class="box box10">
-            <a data-toggle="modal" data-target="#aboutModal">
-                <div class="overlay">
-                    <h4> Graphic Design</h4>
-                    <p> More Info </p>
-                </div>
-                <img class="g-d long" src="images/oa.png" alt="My Pic">
-            </a>
-        </div>
-
-
-
-        <div class="box box11">
-            <a data-toggle="modal" data-target="#aboutModal">
-                <div class="overlay">
-                    <h4> Graphic Design</h4>
-                    <p> More Info </p>
-                </div>
-                <img class="g-d" src="images/g-.png" alt="">
-            </a>
-        </div>
-        <div class="box box12">
-            <a data-toggle="modal" data-target="#aboutModal">
-                <div class="overlay">
-                    <h4> Graphic Design</h4>
-                    <p> More Info </p>
-                </div>
-                <img class="g-d" src="images/g-.png" alt="">
-            </a>
-        </div>
-
-
-        <div class="box box13">
-            <a data-toggle="modal" data-target="#aboutModal">
-                <div class="overlay">
-                    <h4> Graphic Design</h4>
-                    <p> More Info </p>
-                </div>
-                <img class="g-d" src="images/g-.png" alt="">
-            </a>
-
-        </div>
-
-
-
-        <div class="box box14">
-            <a data-toggle="modal" data-target="#aboutModal">
-                <div class="overlay">
-                    <h4> Graphic Design</h4>
-                    <p> More Info </p>
-                </div>
-                <img class="g-d" src="images/g-.png" alt="">
-            </a>
-        </div>
-        <div class="box box15">
-            <a data-toggle="modal" data-target="#aboutModal">
-                <div class="overlay">
-                    <h4> Graphic Design</h4>
-                    <p> More Info </p>
-                </div>
-                <img class="g-d" src="images/g-.png" alt="">
-            </a>
-        </div>
-
-        <div class="box box16">
-            <a data-toggle="modal" data-target="#aboutModal">
-                <div class="overlay">
-                    <h4> Graphic Design</h4>
-                    <p> More Info </p>
-                </div>
-                <img class="g-d" src="images/g.png" alt="My Pic">
-            </a>
-        </div>
-
     </div>
 
 
@@ -390,31 +505,167 @@
 
 
 
-    <!-- Modal 'about' start -->
+
+
+
+
+    <!-- Modal 'about' start 
     <div class="modal fade" id="aboutModal" role="dialog">
         <div class="modal-dialog">
 
             <!-- Modal content-->
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title">Louis Cosyn</h4>
-                </div>
-                <div class="modal-body">
-                    <p>Blah Blah good bloke lol</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-
-        </div>
-    </div>
 
 
     <!-- Modal 'about' end -->
 
 
+
+
+
+
+
+
+
+    <div class="ach">
+
+        <div class=" row" style="margin: 0 auto">
+
+
+            <div class="ach-1 col-md-12">
+                <div class="ach-1-1">
+                    <h1 style="text-align: center; font-weight: 300">Some Proud Moments</h1>
+                    <section style="width: 90px; border-bottom: solid 3px #0d3d51; margin: 0 auto"></section>
+                </div>
+            </div>
+
+
+
+        </div>
+        <div class="row">
+            <div class="ach-left">
+                <div class="col-sm-6 col-md-6">
+                    <div class="ach-2 col-md-12" data-aos="zoom-out-down" data-aos-duration="500">
+
+                        <h3 style="color: #0d3d51">Reach <span class="glyphicon glyphicon-menu-left"></span></h3>
+                        <p>Managing the following accounts I was able to increase our reach:</p>
+                        <p>Facebook: + 45% | Instagram: + 75% | Youtube: + 95% | LinkedIn: + 35%</p>
+                    </div>
+
+                    <div class="ach-3 col-md-12" data-aos="zoom-out-down" data-aos-duration="500">
+                        <div class="ach-1.1">
+                            <h3 style="color: #0d3d51">Conversions <span class="glyphicon glyphicon-menu-left"></span> </h3>
+                            <p>Conversions from channels I supervised increased by 220% in 2017.</p>
+                        </div>
+                    </div>
+                    <div class="ach-4  col-md-12" data-aos="zoom-out-down" data-aos-duration="500">
+                        <h3 style="color: #0d3d51">EDM <span class="glyphicon glyphicon-menu-left"></span></h3>
+                        <p>Increased the open rate of social media leads by 15% and email CTR by 10%.</p>
+
+
+                    </div>
+
+
+
+
+                </div>
+            </div>
+
+
+
+
+            <div class="ach-right">
+                <div class="col-sm-6 col-md-6">
+                    <div class="ach-5 col-md-12" data-aos="zoom-out-down" data-aos-duration="500">
+
+                        <h3 style="color: #0d3d51"><span class="glyphicon glyphicon-menu-right"></span>Leads</h3>
+                        <p>I added 1,200 leads through a targeted social media campaign in Q2 2017.</p>
+                        <p>Each of these leads had an assigned behavior score and were qualified</p>
+                    </div>
+
+                    <div class="ach-6 col-md-12" data-aos="zoom-out-down" data-aos-duration="500">
+                        <div class="ach-1.1">
+                            <h3 style="color: #0d3d51"><span class="glyphicon glyphicon-menu-right"></span>Viral Content</h3>
+                            <p>In 2016 I developed an online video contest which gained viral traction. In 2017 a similar result was reached with 360 photos. Each peice of content promoting our brand.</p>
+                        </div>
+                    </div>
+                    <div class="ach-7  col-md-12" data-aos="zoom-out-down" data-aos-duration="500">
+                        <h3 style="color: #0d3d51"><span class="glyphicon glyphicon-menu-right"></span>E-commerce</h3>
+                        <p>Built a fully funtional online store which has proven successful.</p>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+
+
+
+    <div class="rec">
+
+        <div class=" row" style="margin: 0 auto">
+
+
+            <div class="ach-1 col-md-12">
+                <h1 style="text-align: center; font-weight: 300">Words from my superiors</h1>
+                <section style="width: 90px; border-bottom: solid 3px #f2f2f2; margin: 0 auto"></section>
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+    <div class="row">
+
+        <div style="padding: 40px; text-align: center" class="col-md-4" data-aos="zoom-out-down" data-aos-duration="500">
+            <h4 style="font-style: italic">"Louis is amoung the top 5 people that I have worked with..."</h4>
+            <h5>Stephen Dally</h5>
+            <h6>Vice President of Marketing</h6>
+
+        </div>
+
+        <div style="padding: 40px; text-align: center" class="col-md-4" data-aos="zoom-out-down" data-aos-duration="500">
+            <h4 style="font-style: italic">"Louis is amoung the top 5 people that I have worked with..."</h4>
+            <h5>Stephen Dally</h5>
+            <h6>Vice President of Marketing</h6>
+
+        </div>
+
+        <div style="padding: 40px; text-align: center" class="col-md-4" data-aos="zoom-out-down" data-aos-duration="500">
+            <h4 style="font-style: italic">"Louis is amoung the top 5 people that I have worked with..."</h4>
+            <h5>Stephen Dally</h5>
+            <h6>Vice President of Marketing</h6>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+    <div id="modal-container">
+        <div class="modal-background">
+            <div class="modal">
+                <h2>I'm a Modal</h2>
+                <p>Hear me roar.</p>
+                <svg class="modal-svg" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" preserveAspectRatio="none">
+								<rect x="0" y="0" fill="none" width="226" height="162" rx="3" ry="3"></rect>
+							</svg>
+            </div>
+        </div>
+    </div>
 
 
 
@@ -427,15 +678,80 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title">Graphic Design</h4>
+                    <h4 class="modal-title">My Projects</h4>
                 </div>
                 <div class="modal-body">
-                    <p>I have always enjoyed design in multiple forms.</p>
+                    <h2 style="text-align: center; margin-bottom: 10%; ">Online Adverts</h2>
+                    <h4 style="text-align: center; margin-bottom: 10%; ">(scroll to view more)</h4>
+
+                    <section class="graphics">
+                        <div class="w3-content w3-display-container">
+
+                            <img class="mySlides" src="images/gd-1.png" style="width:100%">
+                            <img class="mySlides" src="images/gd-2.png" style="width:100%">
+
+
+
+
+
+                            <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+                        </div>
+
+
+                    </section>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                 </div>
             </div>
+
+
+
+        </div>
+    </div>
+
+
+
+
+    <!-- Modal graphic design start -->
+    <div class="modal fade" id="ads" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">My Projects</h4>
+                </div>
+                <div class="modal-body">
+                    <h2 style="text-align: center; margin-bottom: 10%; ">Online Adverts</h2>
+                    <h4 style="text-align: center; margin-bottom: 10%; ">(scroll to view more)</h4>
+
+                    <section class="graphics">
+                        <div class="w3-content w3-display-container">
+
+                            <img class="mySlides" src="portfolio/ads/ad-11.png" style="width:100%">
+                            <img class="mySlides" src="portfolio/ads/ad-5.png" style="width:100%">
+                            <img class="mySlides" src="portfolio/ads/ad-12.png" style="width:100%">
+
+
+
+
+
+                            <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+                        </div>
+
+
+                    </section>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+
 
         </div>
     </div>
@@ -443,19 +759,32 @@
 
     <!-- Modal graphic design end -->
 
-    <!-- Modal social media start -->
+    <!-- Modal cinemagraphs start -->
 
-    <div class="modal fade" id="socialMediaModal" role="dialog">
+    <div class="modal fade" id="cinemagraphs" role="dialog">
         <div class="modal-dialog">
 
             <!-- Modal content-->
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title">Social Media</h4>
+                    <h4 class="modal-title">Graphic Design</h4>
                 </div>
                 <div class="modal-body">
-                    <p>Lorem blah</p>
+                    <h2 style="text-align: center; margin-bottom: 10%; ">Cinemagraphs</h2>
+
+                    <section class="graphics">
+                        <div class="row ">
+
+                            <img class="col-md-12 col-sm-12 col-xs-12 cb " src="portfolio/cinemagraphs/rain_puddle.gif">
+                            <img class="col-md-12 col-sm-12 col-xs-12 cb " src="portfolio/open-day-cinemagraph-2-july.gif">
+
+                        </div>
+
+
+                    </section>
+
+
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -464,19 +793,200 @@
 
         </div>
     </div>
+
+    <!-- Modal cinemagraphs start -->
+
+    <div class="modal fade" id="cinemagraphs" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Graphic Design</h4>
+                </div>
+                <div class="modal-body">
+                    <h2 style="text-align: center; margin-bottom: 10%; ">Cinemagraphs</h2>
+
+                    <section class="graphics">
+                        <div class="row ">
+
+                            <img class="col-md-12 col-sm-12 col-xs-12 cb " src="portfolio/cinemagraphs/rain_puddle.gif">
+                            <img class="col-md-12 col-sm-12 col-xs-12 cb " src="portfolio/open-day-cinemagraph-2-july.gif">
+
+
+
+
+
+                        </div>
+
+
+                    </section>
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!-- Modal lead gen start -->
+
+    <div class="modal fade" id="lead-gen" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Graphic Design</h4>
+                </div>
+                <div class="modal-body">
+                    <h2 style="text-align: center; margin-bottom: 10%; ">A few lead generation campaigns</h2>
+                    <h4 style="text-align: center; margin-bottom: 10%; ">(scroll to view more)</h4>
+
+                    <section class="graphics">
+                        <div class="row ">
+
+                            <div class="w3-content w3-display-container">
+
+                                <img class="mySlides" src="portfolio/ads/ad-2.png" style="width:100%">
+                                <img class="mySlides" src="portfolio/ads/ad-9.png" style="width:100%">
+                                <img class="mySlides" src="portfolio/ads/ad-1.png" style="width:100%">
+
+
+
+                                <img class="mySlides" src="portfolio/ads/ad-10.png" style="width:100%">
+
+                                <img class="mySlides" src="portfolio/ads/ad-3.png" style="width:100%">
+                                <img class="mySlides" src="portfolio/ads/ad-4.png" style="width:100%">
+
+                                <img class="mySlides" src="portfolio/ads/ad-6.png" style="width:100%">
+                                <img class="mySlides" src="portfolio/ads/ad-7.png" style="width:100%">
+                                <img class="mySlides" src="portfolio/ads/ad-8.png" style="width:100%">
+
+
+                                <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                                <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+                            </div>
+
+                        </div>
+
+
+                    </section>
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Modal campaigns start -->
+
+    <div class="modal fade" id="campaigns" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Graphic Design</h4>
+                </div>
+                <div class="modal-body">
+                    <h2 style="text-align: center; margin-bottom: 10%; ">Cinemagraphs</h2>
+
+                    <section class="graphics">
+                        <div class="row ">
+
+                            <div class="w3-content w3-display-container">
+                                <img class="mySlides" src="portfolio/ads/ad-1.png" style="width:100%">
+                                <img class="mySlides" src="portfolio/ads/ad-2.png" style="width:100%">
+                                <img class="mySlides" src="portfolio/ads/ad-3.png" style="width:100%">
+                                <img class="mySlides" src="portfolio/ads/ad-4.png" style="width:100%">
+                                <img class="mySlides" src="portfolio/ads/ad-5.png" style="width:100%">
+                                <img class="mySlides" src="portfolio/ads/ad-6.png" style="width:100%">
+                                <img class="mySlides" src="portfolio/ads/ad-7.png" style="width:100%">
+                                <img class="mySlides" src="portfolio/ads/ad-8.png" style="width:100%">
+
+
+                                <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                                <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+                            </div>
+
+                        </div>
+
+
+                    </section>
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
     </div>
 
 
 
 
 
+    <!-- Modal instagram start -->
 
-    <div class="my-work">
-        <h1>A small portfolio</h1>
+    <div class="modal fade" id="instagram" role="dialog">
+        <div class="modal-dialog">
 
-        Here are some projects which I have worked on. Feel free to have a lookat some of my work.
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Graphic Design</h4>
+                </div>
+                <div class="modal-body">
+                    <h2 style="text-align: center; margin-bottom: 10%; ">Cinemagraphs</h2>
+
+                    <section class="graphics">
+                        <div class="row ">
+
+                            <div class="w3-content w3-display-container">
+                                <img class="mySlides2" src="portfolio/instagram/IMG_0394.PNG" style="width:100%">
+                                <img class="mySlides" src="portfolio/instagram/IMG_BDE6E6C4DD0E-1.jpeg" style="width:100%">
+
+
+                                <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                                <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+                            </div>
+
+                        </div>
+
+
+                    </section>
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
 
     </div>
+
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -497,6 +1007,8 @@
 
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/DrawSVGPlugin.js?r=11"></script>
 
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
 
     <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 
@@ -507,6 +1019,8 @@
         AOS.init();
 
     </script>
+
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 
 
     <script src="js/script.js"></script>
