@@ -21,7 +21,7 @@
 	        //convert dashoffset pixel value to interger
 	        var $newUnit = parseInt($dashOffset, 0);
 	        //get the value to be subtracted from the 'stroke-dashoffset'
-	        var $offsetUnit = $percentageComplete * ($newUnit / 6000);
+	        var $offsetUnit = $percentageComplete * ($newUnit / 4000);
 	        //set the new value of the dashoffset to create the drawing effect
 	        $(".path").css("stroke-dashoffset", $newUnit - $offsetUnit);
 	    });
@@ -93,3 +93,12 @@
 	    }
 	    x[slideIndex - 1].style.display = "block";
 	}
+
+	$('.slider').owlCarousel({      
+	    items: 4,
+	          singleItem: true,
+	          nav: true,
+	    dots: false,
+	    loop: true,
+	    autoPlay: 100
+	});

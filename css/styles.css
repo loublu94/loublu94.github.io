@@ -63,9 +63,9 @@ li a:hover {
 
 .intro2 {
 
-    margin-left: 60%;
-    margin-top: 80px;
+    margin: 0 auto;
     margin-bottom: 210px;
+    grid-column: 3;
 }
 
 .louis {
@@ -80,7 +80,7 @@ svg {
     stroke-linecap: round;
     stroke-linejoin: round;
     position: absolute;
-    margin-bottom: 15%;
+    margin-bottom: ;
     top: 200px;
     left: 0;
     right: 0;
@@ -107,13 +107,122 @@ svg {
 }
 
 
+body {
+    background-color: black;
+}
 
-.viewport {
+
+
+.container-m {
+    width: 1px;
+    margin-left: 28px;
+    margin: 0 auto;
+
+
+
+}
+
+.mouse-wrapper {
+    margin: 0 auto;
+}
+
+.container-m .mouse {
+    width: 28px;
+    height: 50px;
+    border: 2px solid #0d3d51;
+
+    border-radius: 10px;
+}
+
+
+
+.container-m .mouse .mouse-wheel {
+    overflow: hidden;
+    margin-top: 5px;
+}
+
+.container-m .mouse .mouse-wheel span {
+    display: block;
+    margin: 5px auto;
+    width: 5px;
+    height: 5px;
+}
+
+.container-m .mouse .mouse-wheel span.wheel {
+    border: 2px solid #0d3d51;
+    border-radius: 5px;
+    width: 0;
+}
+
+.container-m .mouse .mouse-wheel span.arrow {
+    border-bottom: 2px solid #0d3d51;
+    border-right: 2px solid #0d3d51;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-animation: scrollDown;
+    animation: scrollDown;
+    -webkit-animation-duration: 1.7s;
+    animation-duration: 1.7s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes scrollDown {
+    0% {
+        opacity: 1;
+        -webkit-transform: translateY(0) rotate(45deg);
+        transform: translateY(0) rotate(45deg);
+    }
+    50% {
+        opacity: 0;
+        -webkit-transform: translateY(5px) rotate(45deg);
+        transform: translateY(5px) rotate(45deg);
+    }
+    75% {
+        opacity: 0;
+        -webkit-transform: translateY(0) rotate(45deg);
+        transform: translateY(0) rotate(45deg);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0) rotate(45deg);
+        transform: translateY(0) rotate(45deg);
+    }
+}
+
+@keyframes scrollDown {
+    0% {
+        opacity: 1;
+        -webkit-transform: translateY(0) rotate(45deg);
+        transform: translateY(0) rotate(45deg);
+    }
+    50% {
+        opacity: 0;
+        -webkit-transform: translateY(5px) rotate(45deg);
+        transform: translateY(5px) rotate(45deg);
+    }
+    75% {
+        opacity: 0;
+        -webkit-transform: translateY(0) rotate(45deg);
+        transform: translateY(0) rotate(45deg);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0) rotate(45deg);
+        transform: translateY(0) rotate(45deg);
+    }
+}
+
+/*
+body background-color: black .container width: 100px height: 100px margin: 0 auto .mouse width: 28px height: 50px border: 2px solid #ecf0f1 margin: 0 auto border-radius: 30px .mouse-wheel overflow: hidden margin-top: 5px span display: block margin: 5px auto width: 5px height: 5px &.wheel border: 2px solid #ecf0f1 border-radius: 5px width: 0 &.arrow border-bottom: 2px solid #ecf0f1 border-right: 2px solid #ecf0f1 transform: rotate(45deg) animation: scrollDown duration: 1.7s iteration-count: infinite timing-function: ease-in-out @keyframes scrollDown 0% opacity: 1 transform: translateY(0) rotate(45deg) 50% opacity: 0 transform: translateY(5px) rotate(45deg) 75% opacity: 0 transform: translateY(0) rotate(45deg) 100% opacity: 1 transform: translateY(0) rotate(45deg) .viewport {
 
     margin-bottom: 250px;
 
 
 }
+*/
 
 svg {
     padding-right: 15%;
@@ -125,7 +234,7 @@ svg {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-auto-rows: minmax(100px, auto);
     grid-gap: 1em;
-    height: 380px;
+    height: 700px;
     background-color: ;
     margin-bottom: 90px;
 }
@@ -310,8 +419,27 @@ p {
 
 }
 
+.modal-heading {
+    width: 90px;
+    border-bottom: solid 3px #0d3d51;
+    margin: 0 auto;
+    margin-bottom: 10%;
 
 
+}
+
+.modal-image {
+
+    width: 100%;
+    border: solid 5px #0d3d51;
+    padding: 5%;
+    margin: 2%;
+    margin: 0 auto;
+}
+
+.row h4 {
+    text-align: center;
+}
 
 @media screen and (max-width: 767px) {
 
@@ -397,11 +525,44 @@ p {
 
 
 
+
+
 .skills {
 
-    margin-bottom: 12%;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+    list-style: none;
+    text-align: center;
+    width: 100%;
+
+    margin-bottom: 10%;
+    height: 500px;
+    ;
+
+
 }
 
+.skills-1 {
+
+    grid-row: 1;
+    grid-column: 1;
+    width: 33%;
+
+}
+
+.skills-2 {
+
+    grid-row: 1;
+    grid-column: 2;
+    width: 33%;
+}
+
+.skills-3 {
+
+    grid-row: 1;
+    grid-column: 3;
+    width: 33%;
+}
 
 
 
@@ -723,8 +884,39 @@ p {
 
 
 
+    .skills {
+
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 0 auto;
+        list-style: none;
+        text-align: center;
+        width: 100%;
+
+        margin-bottom: 10%;
+        height: 600px;
+        ;
 
 
+    }
+
+    .skills-1 {
+
+        grid-row: 1;
+        grid-column: 1;
+        width: 30%;
+    }
+
+    .skills-2 {
+
+        grid-row: 2;
+        grid-column: 1;
+    }
+
+    .skills-3 {
+
+        grid-row: 3;
+        grid-column: 1;
+    }
     .e-text {
 
         display: none;
@@ -861,13 +1053,16 @@ p {
     background: #DDD;
 }
 
+/*
 .container {
     width: 960px;
     height: auto;
     margin: 0 auto;
     padding: 50px 0;
 }
+*/
 
+/*
 #contact .container form input,
 #contact .container form textarea {
     width: 97.4%;
@@ -885,7 +1080,9 @@ p {
     -o-transition: all .1s ease-in-out;
     transition: all .1s ease-in-out;
 }
+*/
 
+/*
 #contact .container form input:focus,
 #contact .container form textarea:focus {
     border: 2px solid #dd4545;
@@ -923,9 +1120,7 @@ p {
 
 #contact .container form .required {
     color: #b43838;
-}
-
-
+}*/
 
 .cb {
     padding: 10px;
