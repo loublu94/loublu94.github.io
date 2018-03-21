@@ -21,7 +21,7 @@
 	        //convert dashoffset pixel value to interger
 	        var $newUnit = parseInt($dashOffset, 0);
 	        //get the value to be subtracted from the 'stroke-dashoffset'
-	        var $offsetUnit = $percentageComplete * ($newUnit / 4000);
+	        var $offsetUnit = $percentageComplete * ($newUnit / 2000);
 	        //set the new value of the dashoffset to create the drawing effect
 	        $(".path").css("stroke-dashoffset", $newUnit - $offsetUnit);
 	    });

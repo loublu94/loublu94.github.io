@@ -122,6 +122,10 @@ body {
 
 }
 
+.mouse-1 {
+    margin-top: 5%;
+}
+
 .mouse-wrapper {
     margin: 0 auto;
 }
@@ -536,7 +540,7 @@ p {
     width: 100%;
 
     margin-bottom: 10%;
-    height: 500px;
+    height: 800px;
     ;
 
 
@@ -937,7 +941,7 @@ p {
     grid-auto-rows: minmax(100px, auto);
     grid-gap: 1em;
 */
-    height: 600px;
+    height: 800px;
     background-color: ;
     width: 100%;
     margin-top: 5%;
