@@ -1,0 +1,46 @@
+body {
+  font-family: Open Sans, Calibri, Helvetica, sans serif;
+}
+
+.tab-content.current {
+    display: inherit;
+    margin-top: -1px;
+    width: 90%;
+}
+
+ul.tabs li {
+	background-color: #59691a;
+	color: #eee;
+	display: inline-block;
+	padding: 5px 10px;
+	cursor: pointer;
+	margin: 0 0.1em 0 0;
+	border-radius: 5px 5px 0 0;
+	border-width: 1px 1px 0 1px;
+	border-style: solid;
+	border-color: #666;
+}
+ul.tabs li.current {
+	background-color: #e0edae !important;
+	border-bottom: 1px solid #e0edae !important;
+	color: #222;
+	font-weight: bold;
+}
+ul.tabs {
+	-webkit-margin-after: 0;
+	margin-bottom: 0;
+	width: 100% !important;
+}
+.tab-link a {
+	color: #eee;
+}
+li.current a {
+	color: #222;
+}
+.tab-content {
+	display: none;
+	border: 1px solid #59691a;
+	background-color: #e0edae;
+	padding: 15px;
+	margin: 0 0.5em 0.5em 0;
+}
